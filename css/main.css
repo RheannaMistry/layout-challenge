@@ -28,6 +28,8 @@
 		background-color: #FA5A0F; 		
 	 	border-bottom: solid 5px #EA4A00; 			
 	 	color: #FFFFFF;
+	    position: relative;
+
 	}
 	h1 {
 		font-size: 300%;
@@ -43,22 +45,22 @@
 		font-size: 125%;
 	}
 
-	 main {
+	.container-fluid {
 	 	margin: 0; 	
 	 	background-image: url(../img/ricepaper_v3.png);
-	 	opacity: 0.9;
-	 }
+	 	opacity: 0.9;	 	
+	}
 
 	header, section, footer {
 	 	padding: 1em;
 	}
 
-	#tag-line { 	    
-	 	display: inline; 	    
+	.tag-line { 	    
+		display: none;		    
 	} 	
 
 	#menu { 				
-	 	background:rgba(207, 205, 140, 0.5); 		
+	 	background:rgba(207, 205, 140, 0.5);		
 	}
 
 	nav li {
@@ -93,10 +95,6 @@
 		margin-top, margin-bottom: 0;	
 	}
 
-	#location, #menu, #about {
-		color: #55E;
-	}
-
 	header a:hover,
 	header a:focus {
 		color: #00E;
@@ -114,7 +112,8 @@
 		font-size: 18px;
 	}
 
-	main {
+	.container-fluid {
+
 	 	margin-left: 30%;
 	 	margin-right: 20px;
 	 	margin-top: 20px;
@@ -126,10 +125,11 @@
 		top: 10px;
 		right: 10px;
 	}
-	#tag-line {
+	.tag-line { 	    
  	    font-size: 120%
  		color: #EEEEEE;
- 		margins: 0;
+ 		margin: 0; 
+ 		display: inline;
     }
     .container-fluid {	
     	margin-left: 30%;
